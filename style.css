@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(140, 166, 196);
+    margin:0px;
+    padding: 0px;
+}
+#p1{
+    color: white;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: rgb(75, 66, 66);
+    border-radius: 20px;
+    width: 70%;
+    margin-left: 20px;
+}
+.firstname{
+    color: white;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1.2em;
+}
+.void-1{
+    width: 50%;
+    margin-left: 30px;
+    padding: 2px;
+    background-color: rgb(162, 139, 185);
+    border-radius: 10px;
+    color: white;
+}
+.lastname{
+    color: white;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1.2em;
+}
+.email{
+    color: white;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1.2em;
+}
+.dateofbirth{
+        color: white;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 1.2em;
+}
+.void-2{
+    width: 50%;
+    margin-left: 30px;
+    padding: 2px;
+    background-color: rgb(162, 139, 185);
+    border-radius: 10px;
+    color: white;
+}
+.void-3{
+    width: 50%;
+    margin-left: 30px;
+    padding: 2px;
+    background-color: rgb(162, 139, 185);
+    border-radius: 10px;
+    color: white;
+}
+.void-4{
+    width: 50%;
+    margin-left: 30px;
+    padding: 2px;
+    background-color: rgb(162, 139, 185);
+    border-radius: 10px;
+    color: white;
+}
+.submit{
+    color: white;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: rgb(75, 66, 66);
+    border-radius: 5px;
+    margin-left: 20px;
+   
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50vw;
+}
+h1{
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+}
+p{
+    color: rgb(8, 3, 8);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+    text-align: center;
+}
+
+
+
+
+
+@media screen and(max-width:600px)
+{
+ p{
+     display: block;
+ }
+ 
+}
